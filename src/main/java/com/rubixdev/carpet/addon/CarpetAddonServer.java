@@ -1,4 +1,4 @@
-package com.rubixdev.carpet.anvilled.ice.addon;
+package com.rubixdev.carpet.addon;
 
 import carpet.CarpetExtension;
 import carpet.CarpetServer;
@@ -7,27 +7,27 @@ import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.command.ServerCommandSource;
 import net.minecraft.server.network.ServerPlayerEntity;
 
-public class CarpetAnvilledIceAddonServer implements CarpetExtension {
+public class CarpetAddonServer implements CarpetExtension {
     @Override
     public String version()
     {
-        return "carpetice";
+        return "modid";
     }
 
     public static void noop() {}
 
     static
     {
-        CarpetServer.manageExtension(new CarpetAnvilledIceAddonServer());
+        CarpetServer.manageExtension(new CarpetAddonServer());
         // temporary until CM proper runs tiny bit later
-        //CarpetServer.settingsManager.parseSettingsClass(CarpetAnvilledIceAddonSettings.class);
+        //CarpetServer.settingsManager.parseSettingsClass(CarpetAddonSettings.class);
     }
 
     @Override
     public void onGameStarted()
     {
         // let's /carpet handle our few simple settings
-        CarpetServer.settingsManager.parseSettingsClass(CarpetAnvilledIceAddonSettings.class);
+        CarpetServer.settingsManager.parseSettingsClass(CarpetAddonSettings.class);
 
         // set-up a snooper to observe how rules are changing in carpet
         CarpetServer.settingsManager.addRuleObserver( (serverCommandSource, currentRuleState, originalUserTest) ->
