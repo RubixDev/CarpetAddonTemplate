@@ -1,4 +1,4 @@
-# Carpet Anvilled Ice Addon Mod
+# Carpet Addon Mod Template
 
 ## License
 
