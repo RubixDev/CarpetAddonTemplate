@@ -52,4 +52,5 @@ public class CarpetAddonSettings
             strict = false,  // strict = true only allows given options, false allows other inputs
             validate = validatorExampleRule.class)  // validator class, only really needed when strict = false
     public static int exampleRule = 0;  // Name and default value of Rule, please make default value keep vanillas default
+    // exampleRuleAdditional: Additional info the Python parser will include in the READMEs. You can use markdown here
 }
