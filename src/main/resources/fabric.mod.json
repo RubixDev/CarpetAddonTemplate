@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "modid",
-  "version": "1.0.0",
+  "version": "${version}",
 
   "name": "Carpet Addon",
   "description": "A template for a carpet extension Mod",
