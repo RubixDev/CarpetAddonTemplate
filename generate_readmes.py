@@ -136,7 +136,7 @@ def list_rules(rules: List[Rule], rule_headline: str) -> str:
 
 
 def curseforge_list(rules: List[Rule]):
-    out: str = f'# Carpet Addon Template Mod\n\n' \
+    out: str = f'# Carpet Addon Mod Template\n\n' \
                f'Extension Mod for [gnembon\'s fabric-carpet](https://github.com/gnembon/fabric-carpet) ' \
                f'with some more features\n\n' \
                f'**Visit the [GitHub page](https://github.com/RubixDev/CarpetAddonTemplate) ' \

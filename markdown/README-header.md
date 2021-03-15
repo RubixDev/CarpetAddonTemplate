@@ -10,23 +10,3 @@
 
 Extension Mod for [gnembon's fabric-carpet](https://github.com/gnembon/fabric-carpet) with some more features
 
-## Lists of Categories
-- [`CREATIVE`](markdown/CREATIVE_Category.md)
-- [`EXPERIMENTAL`](markdown/EXPERIMENTAL_Category.md)
-- [`FEATURE`](markdown/FEATURE_Category.md)
-
-## Index
-Count: 1
-- [exampleRule](#examplerule)
-
-## Implemented Rules
-
-### exampleRule
-Example description for example Rule    
-- Type: `int`
-- Default value: `0`
-- Suggested options: `0`, `2`, `5`, `10`
-- Categories: `CREATIVE`, `CUSTOM`, `EXPERIMENTAL`, `FEATURE`
-- Additional notes:
-  - You must choose a value from 0 to 32
-  - Additional info the Python parser will include in the READMEs. You can use markdown here
